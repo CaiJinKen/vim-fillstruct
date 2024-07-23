@@ -7,7 +7,7 @@ Fill golang structs.
 Install [fillstruct](https://github.com/CaiJinKen/fillstruct) dependency by doing
 
 ```bash
-go install github.com/CaiJinKen/fillstruct
+go install github.com/CaiJinKen/fillstruct@v0.2.2
 ```
 
 Now add the plugin to vim
