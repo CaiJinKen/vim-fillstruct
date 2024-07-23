@@ -4,8 +4,10 @@ function! s:FillStruct()
         \]
     let cmd = add(cmd, '-file' . ' ' . expand('%'))
     let cmd = add(cmd, '-line' . ' ' . line('.'))
+    let cmd = add(cmd, '-std-out')
+    let cmd = add(cmd, '-only-changed') 
 
-    execute join(cmd)
+    execute "." . join(cmd)
 endfunction
 
 augroup fillstruct 
