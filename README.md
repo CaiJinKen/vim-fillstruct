@@ -7,10 +7,10 @@ Fill golang structs.
 Install [fillstruct](https://github.com/CaiJinKen/fillstruct) dependency by doing
 
 ```bash
-go install github.com/CaiJinKen/fillstruct@v0.2.2
+go install github.com/CaiJinKen/fillstruct@v0.1.1
 ```
 
-Now add the plugin to vim
+Now add the plugin to vim by plugn manager or manually
 
 I use [vim-plug](https://github.com/junegunn/vim-plug) and in that you can add using
 
@@ -22,4 +22,4 @@ and run `:PlugInstall`
 
 ## Usage
 
-Use `:FillStrcut` by calling it in normal mode, and courser in line where need fill structs
+Let courser to the line that need fill structs. Use `:FillStrcut` or custom keymaps.
